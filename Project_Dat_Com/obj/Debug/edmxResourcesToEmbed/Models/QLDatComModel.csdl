@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLDatComModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Chi_tiet_hoa_don_dat_com">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="id_hd_dat_com" Type="Int32" />
+    <Property Name="id_menu_com_theo_ngay" Type="Int32" />
+    <Property Name="so_luong" Type="Int32" />
+    <Property Name="tong_tien" Type="Double" />
+    <Property Name="ngay_them" Type="Int32" />
+    <NavigationProperty Name="Hoa_Don_Dat_Com" Relationship="Self.FK_Chi_tiet_hoa_don_dat_com_Hoa_Don_Dat_Com" FromRole="Chi_tiet_hoa_don_dat_com" ToRole="Hoa_Don_Dat_Com" />
+    <NavigationProperty Name="Menu_Com_Theo_Ngay" Relationship="Self.FK_Chi_tiet_hoa_don_dat_com_Menu_Com_Theo_Ngay" FromRole="Chi_tiet_hoa_don_dat_com" ToRole="Menu_Com_Theo_Ngay" />
+  </EntityType>
+  <EntityType Name="Group_menu">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="ten_group_menu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="time_cre" Type="Int32" />
+    <Property Name="time_up" Type="Int32" />
+    <NavigationProperty Name="Menu_Com_Theo_Ngay" Relationship="Self.FK_Menu_Com_Theo_Ngay_Group_menu" FromRole="Group_menu" ToRole="Menu_Com_Theo_Ngay" />
+  </EntityType>
+  <EntityType Name="Hoa_Don_Dat_Com">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="ma_hd" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="id_user_name_dat_com" Type="Int32" />
+    <Property Name="thanh_tien" Type="Double" />
+    <Property Name="ghi_chu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ngay_in_hd" Type="Int32" />
+    <Property Name="id_trang_thai_chuyen_khoan" Type="Int32" />
+    <Property Name="trang_thai_da_chuyen_khoan" Type="Int32" />
+    <Property Name="ghi_chu_hoa_don" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Chi_tiet_hoa_don_dat_com" Relationship="Self.FK_Chi_tiet_hoa_don_dat_com_Hoa_Don_Dat_Com" FromRole="Hoa_Don_Dat_Com" ToRole="Chi_tiet_hoa_don_dat_com" />
+    <NavigationProperty Name="Trang_Thai_Chuyen_Khoan" Relationship="Self.FK_Hoa_Don_Dat_Com_Trang_Thai_Chuyen_Khoan" FromRole="Hoa_Don_Dat_Com" ToRole="Trang_Thai_Chuyen_Khoan" />
+    <NavigationProperty Name="User_Name_Dat_Com" Relationship="Self.FK_Hoa_Don_Dat_Com_User_Name_Dat_Com" FromRole="Hoa_Don_Dat_Com" ToRole="User_Name_Dat_Com" />
+  </EntityType>
+  <EntityType Name="Menu_Com_Theo_Ngay">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="ten_mon" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="gia_tien" Type="Double" />
+    <Property Name="ngay_menu" Type="Int32" />
+    <Property Name="ghi_chu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="id_gr_menu" Type="Int32" />
+    <NavigationProperty Name="Chi_tiet_hoa_don_dat_com" Relationship="Self.FK_Chi_tiet_hoa_don_dat_com_Menu_Com_Theo_Ngay" FromRole="Menu_Com_Theo_Ngay" ToRole="Chi_tiet_hoa_don_dat_com" />
+    <NavigationProperty Name="Group_menu" Relationship="Self.FK_Menu_Com_Theo_Ngay_Group_menu" FromRole="Menu_Com_Theo_Ngay" ToRole="Group_menu" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Trang_Thai_Chuyen_Khoan">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="ten_trang_thai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="time_cre" Type="Int32" />
+    <Property Name="time_up" Type="Int32" />
+    <NavigationProperty Name="Hoa_Don_Dat_Com" Relationship="Self.FK_Hoa_Don_Dat_Com_Trang_Thai_Chuyen_Khoan" FromRole="Trang_Thai_Chuyen_Khoan" ToRole="Hoa_Don_Dat_Com" />
+  </EntityType>
+  <EntityType Name="User_Name_Dat_Com">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name_user" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="time_cre" Type="Int32" />
+    <Property Name="time_up" Type="Int32" />
+    <NavigationProperty Name="Hoa_Don_Dat_Com" Relationship="Self.FK_Hoa_Don_Dat_Com_User_Name_Dat_Com" FromRole="User_Name_Dat_Com" ToRole="Hoa_Don_Dat_Com" />
+  </EntityType>
+  <Association Name="FK_Chi_tiet_hoa_don_dat_com_Hoa_Don_Dat_Com">
+    <End Role="Hoa_Don_Dat_Com" Type="Self.Hoa_Don_Dat_Com" Multiplicity="0..1" />
+    <End Role="Chi_tiet_hoa_don_dat_com" Type="Self.Chi_tiet_hoa_don_dat_com" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hoa_Don_Dat_Com">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Chi_tiet_hoa_don_dat_com">
+        <PropertyRef Name="id_hd_dat_com" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Chi_tiet_hoa_don_dat_com_Menu_Com_Theo_Ngay">
+    <End Role="Menu_Com_Theo_Ngay" Type="Self.Menu_Com_Theo_Ngay" Multiplicity="0..1" />
+    <End Role="Chi_tiet_hoa_don_dat_com" Type="Self.Chi_tiet_hoa_don_dat_com" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Menu_Com_Theo_Ngay">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Chi_tiet_hoa_don_dat_com">
+        <PropertyRef Name="id_menu_com_theo_ngay" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Menu_Com_Theo_Ngay_Group_menu">
+    <End Role="Group_menu" Type="Self.Group_menu" Multiplicity="0..1" />
+    <End Role="Menu_Com_Theo_Ngay" Type="Self.Menu_Com_Theo_Ngay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group_menu">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Menu_Com_Theo_Ngay">
+        <PropertyRef Name="id_gr_menu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Hoa_Don_Dat_Com_Trang_Thai_Chuyen_Khoan">
+    <End Role="Trang_Thai_Chuyen_Khoan" Type="Self.Trang_Thai_Chuyen_Khoan" Multiplicity="0..1" />
+    <End Role="Hoa_Don_Dat_Com" Type="Self.Hoa_Don_Dat_Com" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Trang_Thai_Chuyen_Khoan">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Hoa_Don_Dat_Com">
+        <PropertyRef Name="id_trang_thai_chuyen_khoan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Hoa_Don_Dat_Com_User_Name_Dat_Com">
+    <End Role="User_Name_Dat_Com" Type="Self.User_Name_Dat_Com" Multiplicity="0..1" />
+    <End Role="Hoa_Don_Dat_Com" Type="Self.Hoa_Don_Dat_Com" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User_Name_Dat_Com">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Hoa_Don_Dat_Com">
+        <PropertyRef Name="id_user_name_dat_com" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLDatComEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Chi_tiet_hoa_don_dat_com" EntityType="Self.Chi_tiet_hoa_don_dat_com" />
+    <EntitySet Name="Group_menu" EntityType="Self.Group_menu" />
+    <EntitySet Name="Hoa_Don_Dat_Com" EntityType="Self.Hoa_Don_Dat_Com" />
+    <EntitySet Name="Menu_Com_Theo_Ngay" EntityType="Self.Menu_Com_Theo_Ngay" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Trang_Thai_Chuyen_Khoan" EntityType="Self.Trang_Thai_Chuyen_Khoan" />
+    <EntitySet Name="User_Name_Dat_Com" EntityType="Self.User_Name_Dat_Com" />
+    <AssociationSet Name="FK_Chi_tiet_hoa_don_dat_com_Hoa_Don_Dat_Com" Association="Self.FK_Chi_tiet_hoa_don_dat_com_Hoa_Don_Dat_Com">
+      <End Role="Hoa_Don_Dat_Com" EntitySet="Hoa_Don_Dat_Com" />
+      <End Role="Chi_tiet_hoa_don_dat_com" EntitySet="Chi_tiet_hoa_don_dat_com" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Chi_tiet_hoa_don_dat_com_Menu_Com_Theo_Ngay" Association="Self.FK_Chi_tiet_hoa_don_dat_com_Menu_Com_Theo_Ngay">
+      <End Role="Menu_Com_Theo_Ngay" EntitySet="Menu_Com_Theo_Ngay" />
+      <End Role="Chi_tiet_hoa_don_dat_com" EntitySet="Chi_tiet_hoa_don_dat_com" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Menu_Com_Theo_Ngay_Group_menu" Association="Self.FK_Menu_Com_Theo_Ngay_Group_menu">
+      <End Role="Group_menu" EntitySet="Group_menu" />
+      <End Role="Menu_Com_Theo_Ngay" EntitySet="Menu_Com_Theo_Ngay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Hoa_Don_Dat_Com_Trang_Thai_Chuyen_Khoan" Association="Self.FK_Hoa_Don_Dat_Com_Trang_Thai_Chuyen_Khoan">
+      <End Role="Trang_Thai_Chuyen_Khoan" EntitySet="Trang_Thai_Chuyen_Khoan" />
+      <End Role="Hoa_Don_Dat_Com" EntitySet="Hoa_Don_Dat_Com" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Hoa_Don_Dat_Com_User_Name_Dat_Com" Association="Self.FK_Hoa_Don_Dat_Com_User_Name_Dat_Com">
+      <End Role="User_Name_Dat_Com" EntitySet="User_Name_Dat_Com" />
+      <End Role="Hoa_Don_Dat_Com" EntitySet="Hoa_Don_Dat_Com" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
