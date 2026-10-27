@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ProjectCom\\Project_QLDatCom\\",
+  "WorkspaceRootPath": "D:\\ProjectDatCom\\Project_Dat_Com\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|d:\\projectcom\\project_qldatcom\\project_dat_com\\areas\\admin\\scriptsadmin\\groupmenu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|d:\\projectdatcom\\project_dat_com\\project_dat_com\\areas\\admin\\scriptsadmin\\groupmenu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|solutionrelative:project_dat_com\\areas\\admin\\scriptsadmin\\groupmenu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|d:\\projectcom\\project_qldatcom\\project_dat_com\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|D:\\ProjectDatCom\\Project_Dat_Com\\project_dat_com\\areas\\admin\\views\\homeadmin\\groupmenuadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|solutionrelative:project_dat_com\\areas\\admin\\views\\homeadmin\\groupmenuadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|D:\\ProjectDatCom\\Project_Dat_Com\\project_dat_com\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|solutionrelative:project_dat_com\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|d:\\projectcom\\project_qldatcom\\project_dat_com\\areas\\admin\\controllers\\groupmenuadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|D:\\ProjectDatCom\\Project_Dat_Com\\project_dat_com\\areas\\admin\\controllers\\groupmenuadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|solutionrelative:project_dat_com\\areas\\admin\\controllers\\groupmenuadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|d:\\projectcom\\project_qldatcom\\project_dat_com\\areas\\admin\\views\\homeadmin\\groupmenuadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|solutionrelative:project_dat_com\\areas\\admin\\views\\homeadmin\\groupmenuadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|d:\\projectdatcom\\project_dat_com\\project_dat_com\\controllers\\groupmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|solutionrelative:project_dat_com\\controllers\\groupmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|d:\\projectdatcom\\project_dat_com\\project_dat_com\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|solutionrelative:project_dat_com\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|d:\\projectdatcom\\project_dat_com\\project_dat_com\\models\\qldatcommodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{8BF11EC8-508C-4945-8B9D-807B1D23C9A9}|Project_Dat_Com\\Project_Dat_Com.csproj|solutionrelative:project_dat_com\\models\\qldatcommodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +38,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "GroupMenuController.cs",
+              "DocumentMoniker": "D:\\ProjectDatCom\\Project_Dat_Com\\Project_Dat_Com\\Controllers\\GroupMenuController.cs",
+              "RelativeDocumentMoniker": "Project_Dat_Com\\Controllers\\GroupMenuController.cs",
+              "ToolTip": "D:\\ProjectDatCom\\Project_Dat_Com\\Project_Dat_Com\\Controllers\\GroupMenuController.cs",
+              "RelativeToolTip": "Project_Dat_Com\\Controllers\\GroupMenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T08:14:26.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "D:\\ProjectDatCom\\Project_Dat_Com\\Project_Dat_Com\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "Project_Dat_Com\\Controllers\\ValuesController.cs",
+              "ToolTip": "D:\\ProjectDatCom\\Project_Dat_Com\\Project_Dat_Com\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "Project_Dat_Com\\Controllers\\ValuesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T08:14:17.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QLDatComModel.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\ProjectDatCom\\Project_Dat_Com\\Project_Dat_Com\\Models\\QLDatComModel.edmx",
+              "RelativeDocumentMoniker": "Project_Dat_Com\\Models\\QLDatComModel.edmx",
+              "ToolTip": "D:\\ProjectDatCom\\Project_Dat_Com\\Project_Dat_Com\\Models\\QLDatComModel.edmx [Diagram1]",
+              "RelativeToolTip": "Project_Dat_Com\\Models\\QLDatComModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-10-27T07:54:42.157Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "D:\\ProjectCom\\Project_QLDatCom\\Project_Dat_Com\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\ProjectDatCom\\Project_Dat_Com\\Project_Dat_Com\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "Project_Dat_Com\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "D:\\ProjectCom\\Project_QLDatCom\\Project_Dat_Com\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\ProjectDatCom\\Project_Dat_Com\\Project_Dat_Com\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeToolTip": "Project_Dat_Com\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADoAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADkAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-10-26T14:01:47.925Z",
               "EditorCaption": ""
@@ -45,37 +95,37 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GroupMenu.js",
-              "DocumentMoniker": "D:\\ProjectCom\\Project_QLDatCom\\Project_Dat_Com\\Areas\\Admin\\ScriptsAdmin\\GroupMenu.js",
+              "DocumentMoniker": "D:\\ProjectDatCom\\Project_Dat_Com\\Project_Dat_Com\\Areas\\Admin\\ScriptsAdmin\\GroupMenu.js",
               "RelativeDocumentMoniker": "Project_Dat_Com\\Areas\\Admin\\ScriptsAdmin\\GroupMenu.js",
-              "ToolTip": "D:\\ProjectCom\\Project_QLDatCom\\Project_Dat_Com\\Areas\\Admin\\ScriptsAdmin\\GroupMenu.js",
+              "ToolTip": "D:\\ProjectDatCom\\Project_Dat_Com\\Project_Dat_Com\\Areas\\Admin\\ScriptsAdmin\\GroupMenu.js",
               "RelativeToolTip": "Project_Dat_Com\\Areas\\Admin\\ScriptsAdmin\\GroupMenu.js",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAI8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-10-26T13:50:58.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "GroupMenuAdmin.cshtml",
-              "DocumentMoniker": "D:\\ProjectCom\\Project_QLDatCom\\Project_Dat_Com\\Areas\\Admin\\Views\\HomeAdmin\\GroupMenuAdmin.cshtml",
+              "DocumentMoniker": "D:\\ProjectDatCom\\Project_Dat_Com\\Project_Dat_Com\\Areas\\Admin\\Views\\HomeAdmin\\GroupMenuAdmin.cshtml",
               "RelativeDocumentMoniker": "Project_Dat_Com\\Areas\\Admin\\Views\\HomeAdmin\\GroupMenuAdmin.cshtml",
-              "ToolTip": "D:\\ProjectCom\\Project_QLDatCom\\Project_Dat_Com\\Areas\\Admin\\Views\\HomeAdmin\\GroupMenuAdmin.cshtml",
+              "ToolTip": "D:\\ProjectDatCom\\Project_Dat_Com\\Project_Dat_Com\\Areas\\Admin\\Views\\HomeAdmin\\GroupMenuAdmin.cshtml",
               "RelativeToolTip": "Project_Dat_Com\\Areas\\Admin\\Views\\HomeAdmin\\GroupMenuAdmin.cshtml",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHsAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-10-26T13:44:30.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GroupMenuAdminController.cs",
-              "DocumentMoniker": "D:\\ProjectCom\\Project_QLDatCom\\Project_Dat_Com\\Areas\\Admin\\Controllers\\GroupMenuAdminController.cs",
+              "DocumentMoniker": "D:\\ProjectDatCom\\Project_Dat_Com\\Project_Dat_Com\\Areas\\Admin\\Controllers\\GroupMenuAdminController.cs",
               "RelativeDocumentMoniker": "Project_Dat_Com\\Areas\\Admin\\Controllers\\GroupMenuAdminController.cs",
-              "ToolTip": "D:\\ProjectCom\\Project_QLDatCom\\Project_Dat_Com\\Areas\\Admin\\Controllers\\GroupMenuAdminController.cs",
+              "ToolTip": "D:\\ProjectDatCom\\Project_Dat_Com\\Project_Dat_Com\\Areas\\Admin\\Controllers\\GroupMenuAdminController.cs",
               "RelativeToolTip": "Project_Dat_Com\\Areas\\Admin\\Controllers\\GroupMenuAdminController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCMAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAF0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-26T13:41:25.174Z",
               "EditorCaption": ""

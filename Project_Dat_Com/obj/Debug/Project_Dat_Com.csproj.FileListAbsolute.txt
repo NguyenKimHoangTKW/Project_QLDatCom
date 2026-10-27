@@ -174,3 +174,5 @@ D:\ProjectCom\Project_QLDatCom\Project_Dat_Com\obj\Debug\Project_Dat_Com.csproj.
 D:\ProjectCom\Project_QLDatCom\Project_Dat_Com\obj\Debug\Project_.3E72A296.Up2Date
 D:\ProjectCom\Project_QLDatCom\Project_Dat_Com\obj\Debug\Project_Dat_Com.dll
 D:\ProjectCom\Project_QLDatCom\Project_Dat_Com\obj\Debug\Project_Dat_Com.pdb
+D:\ProjectDatCom\Project_Dat_Com\Project_Dat_Com\bin\EntityFramework.SqlServer.dll
+D:\ProjectDatCom\Project_Dat_Com\Project_Dat_Com\bin\EntityFramework.SqlServer.xml

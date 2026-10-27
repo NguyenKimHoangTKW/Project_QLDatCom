@@ -5,18 +5,18 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="de3c8a55750d4e65bc70b6579bbf7ac3" Name="Diagram1">
-        <EntityTypeShape EntityType="QLDatComModel.Chi_tiet_hoa_don_dat_com" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="QLDatComModel.Group_menu" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="QLDatComModel.Hoa_Don_Dat_Com" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="QLDatComModel.Menu_Com_Theo_Ngay" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="QLDatComModel.sysdiagram" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="QLDatComModel.Trang_Thai_Chuyen_Khoan" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="QLDatComModel.User_Name_Dat_Com" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
-        <AssociationConnector Association="QLDatComModel.FK_Chi_tiet_hoa_don_dat_com_Hoa_Don_Dat_Com" ManuallyRouted="false" />
-        <AssociationConnector Association="QLDatComModel.FK_Chi_tiet_hoa_don_dat_com_Menu_Com_Theo_Ngay" ManuallyRouted="false" />
-        <AssociationConnector Association="QLDatComModel.FK_Menu_Com_Theo_Ngay_Group_menu" ManuallyRouted="false" />
-        <AssociationConnector Association="QLDatComModel.FK_Hoa_Don_Dat_Com_Trang_Thai_Chuyen_Khoan" ManuallyRouted="false" />
-        <AssociationConnector Association="QLDatComModel.FK_Hoa_Don_Dat_Com_User_Name_Dat_Com" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="QLDatComModel.Chi_tiet_hoa_don_dat_com" Width="1.5" PointX="5.25" PointY="1.375" />
+        <EntityTypeShape EntityType="QLDatComModel.Group_menu" Width="1.5" PointX="0.75" PointY="9.625" />
+        <EntityTypeShape EntityType="QLDatComModel.Hoa_Don_Dat_Com" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="QLDatComModel.Menu_Com_Theo_Ngay" Width="1.5" PointX="3" PointY="9.375" />
+        <EntityTypeShape EntityType="QLDatComModel.sysdiagram" Width="1.5" PointX="2.75" PointY="5.75" />
+        <EntityTypeShape EntityType="QLDatComModel.Trang_Thai_Chuyen_Khoan" Width="1.5" PointX="0.75" PointY="5.625" />
+        <EntityTypeShape EntityType="QLDatComModel.User_Name_Dat_Com" Width="1.5" PointX="0.75" PointY="1.5" />
+        <AssociationConnector Association="QLDatComModel.FK_Chi_tiet_hoa_don_dat_com_Hoa_Don_Dat_Com" />
+        <AssociationConnector Association="QLDatComModel.FK_Chi_tiet_hoa_don_dat_com_Menu_Com_Theo_Ngay" />
+        <AssociationConnector Association="QLDatComModel.FK_Menu_Com_Theo_Ngay_Group_menu" />
+        <AssociationConnector Association="QLDatComModel.FK_Hoa_Don_Dat_Com_Trang_Thai_Chuyen_Khoan" />
+        <AssociationConnector Association="QLDatComModel.FK_Hoa_Don_Dat_Com_User_Name_Dat_Com" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
