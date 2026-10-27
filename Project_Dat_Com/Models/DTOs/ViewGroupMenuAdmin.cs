@@ -11,6 +11,6 @@ namespace Project_Dat_Com.Models.DTOs
 
         public int PageSize { get; set; }
 
-        public string? SearchTerm { get; set; }
+        public string SearchTerm { get; set; }
     }
 }
